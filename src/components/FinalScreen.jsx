@@ -11,17 +11,16 @@ export default function FinalMessageScreen() {
   const [allMessagesShown, setAllMessagesShown] = useState(false)
   const [startTyping, setStartTyping] = useState(false)
   const [titleComplete, setTitleComplete] = useState(false)
-  const [floatingElements, setFloatingElements] = useState([])
-
+ const [floatingElements, setFloatingElements] = useState([])  
   const messages = [
-    "Hey bestie! 💕",
-    "You mean the world to me...",
-    "Through every laugh, every tear, every crazy adventure...",
-    "You've been my constant, my support, my partner in crime! 🎉",
-    "Thank you for being the most amazing friend anyone could ask for! ✨",
-    "Here's to many more years of friendship, fun, and unforgettable memories! 🥳",
-    "Happy Friendship Day, my dear friend! 💖",
-  ]
+  "Hey bestie! 💕",
+  "Some people come and go... but you, Harleen, you're the one who stayed. ❤️",
+  "In my darkest days and brightest moments, you've always been there.",
+  "Your presence is not just comforting—it's a blessing I silently thank the universe for. 🌌",
+  "You're not just a friend, you're family—my chosen one. 👭",
+  "I don’t say it often, but you matter to me more than words could ever express.",
+  "Happy Friendship Day, Harleen... thank you for being *you*. 💖",
+];
 
   const titleWords = ["HAPPY", "FRIENDSHIP", "DAY!"]
 
